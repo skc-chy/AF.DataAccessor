@@ -1,3 +1,5 @@
+CREATE DATABASE AFDataAccessorSampleDB
+
 USE [AFDataAccessorSampleDB]
 GO
 /****** Object:  Table [dbo].[Employee]    Script Date: 13-04-2023 10:40:14 ******/
