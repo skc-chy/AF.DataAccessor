@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AF.DataAccessor.Sample
+﻿namespace AF.DataAccessor.Sample
 {
     public sealed class DataAccessorEntity
     {

@@ -47,7 +47,7 @@
           "dependencies": {
             "AF.DataAccessor": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.0.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

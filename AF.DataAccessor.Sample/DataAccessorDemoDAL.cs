@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using Architecture.Foundation.DataAccessor;
 using Architecture.Foundation.DataAccessor.SqlClient;
 
@@ -85,7 +83,7 @@ namespace AF.DataAccessor.Sample
 
             try
             {
-                StoreProcedureCommand procedure = CreateProcedureCommand("dbo.GetEmployee", "AF");
+                StoreProcedureCommand procedure = CreateProcedureCommand("dbo.GetEmployee");
                 reader = ExecuteCommandAndReturnDataReader(procedure);
 
                 while (reader.Read())

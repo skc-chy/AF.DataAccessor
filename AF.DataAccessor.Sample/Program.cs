@@ -1,18 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AF.DataAccessor.Sample;
-using Microsoft.Extensions.Configuration;
-using System.Configuration;
-using System.Data.Common;
-
-
-var builder = new ConfigurationBuilder()
-                       .SetBasePath(Directory.GetCurrentDirectory())
-                       .AddJsonFile("AFDataAccessor.json", optional: false, reloadOnChange: true);
-var configuration = builder.Build();
-
-string conn1 = configuration.GetConnectionString("Conn1");
-
-string conn2 = configuration.GetConnectionString("Conn2");
 
 bool exit = false;
 

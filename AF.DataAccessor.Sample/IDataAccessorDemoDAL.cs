@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AF.DataAccessor.Sample
+﻿namespace AF.DataAccessor.Sample
 {
 
     public interface IDataAccessorDemoDAL

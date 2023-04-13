@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AF.DataAccessor.Sample
+﻿namespace AF.DataAccessor.Sample
 {
     public sealed class OperationManager
     {

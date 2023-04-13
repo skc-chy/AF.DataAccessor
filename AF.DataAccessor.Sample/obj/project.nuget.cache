@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "b/fIIV+/xknRJ2FI4N+eozg3+GfYDooclL7Ap3RtNQZGQyvRyiR2T42mFih+Xmp2cdPaNZkyiMuz6Fn0xa6G4A==",
+  "dgSpecHash": "xqbQ0+IfZeD78nzwI9Sg9jSpObMtceK0qlcfeJqLON+7i82n3aatmV6VryPRqN+V4/btXZ+PvcIYoASstq1xsw==",
   "success": true,
   "projectFilePath": "C:\\Work\\DotNetCoreFramework\\SampleApplication\\AF.DataAccessor.Sample\\AF.DataAccessor.Sample\\AF.DataAccessor.Sample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.0\\af.dataaccessor.2.0.0.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.1\\af.dataaccessor.2.0.1.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",

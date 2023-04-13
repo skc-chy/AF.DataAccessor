@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "AF": "Server=localhost;Database=AFDataAccessorSampleDB;User Id=sa;Password=123456",
+    "AF": "Server=DESKTOP-FVTJNO7;Database=AFDataAccessorSampleDB;User Id=sa;Password=123456",
 
     "AF2": "Server=My_SERVER;Database=mydatabase;User Id=YOUR_USER;Password=YOUR_PASSWORD;MultipleActiveResultSets=true"
   }
