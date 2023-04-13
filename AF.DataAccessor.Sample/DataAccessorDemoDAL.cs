@@ -7,7 +7,7 @@ using Architecture.Foundation.DataAccessor.SqlClient;
 namespace AF.DataAccessor.Sample
 {
     /// <summary>
-    /// Add attribute 'AFDataStore' and pass connection key defined in configuration XML name 'Database.xml'
+    /// Add connection name with AF in AFDataAccessor.json'
     /// Inherit class 'AFDataStoreAccessor'
     /// </summary>
     /// 
@@ -42,7 +42,7 @@ namespace AF.DataAccessor.Sample
         {
             var result = new Result() { IsValid = false };
 
-            StoreProcedureCommand procedure = CreateProcedureCommand("dbo.UpdateEmployee","AF");
+            StoreProcedureCommand procedure = CreateProcedureCommand("dbo.UpdateEmployee", "AF");
             procedure.AppendGuid("EmpID", employeeData.EmpID);
             procedure.AppendNVarChar("Address", employeeData.Address);
             procedure.AppendNVarChar("EMail", employeeData.EMail);
@@ -63,7 +63,7 @@ namespace AF.DataAccessor.Sample
         {
             var result = new Result() { IsValid = false };
 
-            StoreProcedureCommand procedure = CreateProcedureCommand("dbo.DeleteEmployee","AF");
+            StoreProcedureCommand procedure = CreateProcedureCommand("dbo.DeleteEmployee", "AF");
             procedure.AppendGuid("EmpID", empID);
 
             int resultValue = ExecuteCommand(procedure);
@@ -85,11 +85,11 @@ namespace AF.DataAccessor.Sample
 
             try
             {
-                StoreProcedureCommand procedure = CreateProcedureCommand("dbo.GetEmployee","AF");
+                StoreProcedureCommand procedure = CreateProcedureCommand("dbo.GetEmployee", "AF");
                 reader = ExecuteCommandAndReturnDataReader(procedure);
 
                 while (reader.Read())
-                    empList.Add(new DataAccessorEntity { EmpID = new Guid(reader["EmpID"].ToString()), Name = reader["Name"].ToString(), Address = reader["Address"].ToString(), EMail = reader["EMail"].ToString(), Phone = reader["Phone"].ToString() });
+                    empList.Add(new DataAccessorEntity { EmpID = new Guid(reader["EmployeeID"].ToString()), Name = reader["Name"].ToString(), Address = reader["Address"].ToString(), EMail = reader["EMail"].ToString(), Phone = reader["Phone"].ToString() });
 
                 reader.Close();
             }
