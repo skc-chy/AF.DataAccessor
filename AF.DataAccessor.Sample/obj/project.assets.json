@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -706,16 +706,16 @@
     }
   },
   "libraries": {
-    "AF.DataAccessor/2.0.1": {
-      "sha512": "8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
+    "AF.DataAccessor/2.0.2": {
+      "sha512": "Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
       "type": "package",
-      "path": "af.dataaccessor/2.0.1",
+      "path": "af.dataaccessor/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.dataaccessor.2.0.1.nupkg.sha512",
+        "af.dataaccessor.2.0.2.nupkg.sha512",
         "af.dataaccessor.nuspec",
         "content/AFDataAccessor.json",
         "content/Icons/Icon.ico",
@@ -2438,7 +2438,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AF.DataAccessor >= 2.0.1",
+      "AF.DataAccessor >= 2.0.2",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
@@ -2489,7 +2489,7 @@
         "dependencies": {
           "AF.DataAccessor": {
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "[2.0.2, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

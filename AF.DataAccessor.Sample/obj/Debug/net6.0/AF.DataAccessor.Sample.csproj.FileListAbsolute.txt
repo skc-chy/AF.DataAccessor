@@ -42,4 +42,3 @@ C:\Work\DotNetCoreFramework\SampleApplication\AF.DataAccessor.Sample\AF.DataAcce
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataAccessor.Sample\AF.DataAccessor.Sample\obj\Debug\net6.0\AF.DataAccessor.Sample.pdb
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataAccessor.Sample\AF.DataAccessor.Sample\obj\Debug\net6.0\AF.DataAccessor.Sample.genruntimeconfig.cache
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataAccessor.Sample\AF.DataAccessor.Sample\obj\Debug\net6.0\ref\AF.DataAccessor.Sample.dll
-C:\Work\DotNetCoreFramework\SampleApplication\AF.DataAccessor.Sample\AF.DataAccessor.Sample\bin\Debug\net6.0\AFDataAccessor.json
